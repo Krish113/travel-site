@@ -20,6 +20,7 @@ Thumbs.db
 .settings
 .tmproj
 *.esproj
+.vscode
 nbproject
 *.sublime-project
 *.sublime-workspace
