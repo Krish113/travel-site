@@ -4,6 +4,14 @@
     color: $mainBlue;
 
     @mixin atSmall {
+        font-size: 2.375rem;
+    }
+
+    @mixin atMid {
+        font-size: 2.5rem;
+    }
+
+    @mixin atLarge {
         font-size: 2.875rem;
     }
 
@@ -39,5 +47,9 @@
 
     &--b-margin-large {
         margin-bottom: 1.6em;
+    }
+
+    &--no-t-margin {
+        margin-top: 0;
     }
 }
